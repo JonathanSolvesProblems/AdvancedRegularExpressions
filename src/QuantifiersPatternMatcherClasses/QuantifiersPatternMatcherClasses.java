@@ -19,9 +19,35 @@ public class QuantifiersPatternMatcherClasses {
         htmlText.append("<h2>Summary</h2>");
         htmlText.append("<p>summary text</p>");
 
-        String h2Pattern = ".*<h2>.*"; // can be anything before or after
+        String h2Pattern = "<h2>"; // can be anything before or after - () is a group, access them using group method in matcher class.
         Pattern pattern = Pattern.compile(h2Pattern);
         Matcher matcher = pattern.matcher(htmlText);
         System.out.println(matcher.matches());
+
+        // matchers can only use a matcher once
+        matcher.reset(); // resets internal state so that we can use matcher again
+        int count = 0;
+        while(matcher.find()) {
+            count++;
+            System.out.println("Occurence " + count + " : " + matcher.start() + " to " + matcher.end());
+        }
+
+        String h2GroupPattern = "(<h2>.*?</h2>)"; // ? turns * quantifier into a lazy quantifier
+        Pattern groupPattern = Pattern.compile(h2GroupPattern);
+        Matcher groupMatcher = groupPattern.matcher(htmlText);
+        System.out.println(groupMatcher.matches());
+        groupMatcher.reset();
+
+        while(groupMatcher.find()) {
+            System.out.println("Occurrence: " + groupMatcher.group(1));
+        }
+
+        String h2TextGroups = "(<h2>).(.+?)(</h2>)";
+        Pattern h2TextPattern = Pattern.compile(h2TextGroups);
+        Matcher h2TextMatcher = h2TextPattern.matcher(htmlText);
+
+        while(h2TextMatcher.find()) {
+            System.out.println("Occurrence: " + h2TextMatcher.group(2));
+        }
     }
 }

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88351e67-3333-4884-9dae-0661a5e45f88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuantifiersPatternMatcherClasses/QuantifiersPatternMatcherClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RegularExpressionsTests/QuantifiersPatternMatcherClasses/QuantifiersPatternMatcherClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RegularExpressionsTests/QuantifiersPatternMatcherClasses/QuantifiersPatternMatcherClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuantifiersPatternMatcherClasses/QuantifiersPatternMatcherClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuantifiersPatternMatcherClasses/QuantifiersPatternMatcherClasses.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
