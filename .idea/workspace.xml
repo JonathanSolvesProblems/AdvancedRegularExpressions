@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88351e67-3333-4884-9dae-0661a5e45f88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCBM/CharacterClassAndMatches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuantifiersPatternMatcherClasses/QuantifiersPatternMatcherClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RegularExpressionsTests/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RegularExpressionsTests/com/company/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,8 @@
   <component name="ProjectId" id="1YDFYZDhLVOon2cNVkUjS59KIYf" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="abcDeee" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CharacterClassAndMatches">
+  <component name="RunManager" selected="Application.QuantifiersPatternMatcherClasses">
     <configuration name="CharacterClassAndMatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCBM.CharacterClassAndMatches" />
       <module name="RegularExpressionsTests" />
@@ -65,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuantifiersPatternMatcherClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuantifiersPatternMatcherClasses.QuantifiersPatternMatcherClasses" />
+      <module name="RegularExpressionsTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuantifiersPatternMatcherClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuantifiersPatternMatcherClasses" />
         <item itemvalue="Application.CharacterClassAndMatches" />
         <item itemvalue="Application.Main" />
       </list>
@@ -82,15 +96,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582469305503</updated>
+      <workItem from="1582506317888" duration="1668000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
